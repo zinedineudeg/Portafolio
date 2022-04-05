@@ -263,9 +263,31 @@ footer .footer-content i{
     padding-right: 10px;
   
 }
+.Main-cover{
+background-image:url("Media/main.jpg") ;
+height: auto;
+width: 100%;
+position: relative;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover ;
+margin: auto;
+
+
+}
+.Main-cover::before{
+    background:rgba(0, 0, 0, 0.432);
+    z-index: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 .txt-completo{
     position: relative;
-    width: 1000px;
+    width: 1200px;
     height: 100%;
     margin: auto;
     padding: 10px;
@@ -275,6 +297,20 @@ footer .footer-content i{
 }
 .txt-completo p{
     font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+  
+  
+}
+.txt-completo img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+
 }
 @media screen and (max-width:767px ) {
     body{
@@ -351,6 +387,23 @@ footer .footer-content i{
         text-align: center;
      
 
+
+    }
+    .txt-completo{
+        width: 100%;
+    }
+    .txt-completo p{
+        font-size: 15px;
+       
+      
+    }
+    .txt-completo img{
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 50%;
     }
     footer{
         width: 100%;
