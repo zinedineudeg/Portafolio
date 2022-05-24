@@ -365,7 +365,31 @@ display: block;
     margin: auto;
     padding: 20px;
 }
+
+.images-task3{
+    width: 1400px;
+    height: auto;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: row;
+}
+.images-task3 img{
+    width: 650px;
+    height: 500px;
+    padding: 0;
+    margin: 30px;
+}
+.audio{
+    margin: 30px auto;
+    width: 300px;
+    height: 100px;
+   
+}
 @media screen and (max-width:767px ) {
+    .Main-cover{
+        width: 100%;
+        height: auto;
+    }
     body{
         width: 100%;
         position: relative;
@@ -479,4 +503,18 @@ display: block;
         width: 100%;
     }
     
+    .images-task3{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+
+
+    }
+    .images-task3 img{
+        width: 500px;
+        height: 400px;
+        margin: 15px;
+    }
 }
