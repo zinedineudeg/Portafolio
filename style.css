@@ -397,6 +397,18 @@ width: 700px;
 height: 600px;
 margin: auto 130px;
 }
+.text-task3{
+    margin: 30px auto;
+    position: relative;
+    width: 1000px;  
+}
+.text-task3 .txt-t p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+  
+}
 @media screen and (max-width:767px ) {
     .Main-cover{
         width: 100%;
